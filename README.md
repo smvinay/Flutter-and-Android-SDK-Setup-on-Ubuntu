@@ -45,7 +45,9 @@ mv cmdline-tools latest
 ## Set Environment Variables
 
 export ANDROID_HOME=$HOME/Android/Sdk
+
 export PATH=$ANDROID_HOME/cmdline-tools/latest/bin:$ANDROID_HOME/platform-tools:$PATH
+
 source ~/.bashrc
 
 
