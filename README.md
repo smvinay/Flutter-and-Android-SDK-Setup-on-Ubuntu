@@ -74,7 +74,9 @@ mv cmdline-tools latest
 
 
 export ANDROID_HOME=$HOME/Android/Sdk
+
 export PATH=$ANDROID_HOME/cmdline-tools/latest/bin:$ANDROID_HOME/platform-tools:$PATH
+
 source ~/.bashrc
 
 
@@ -82,7 +84,9 @@ source ~/.bashrc
 
 
 echo 'export ANDROID_HOME=$HOME/Android/Sdk' >> ~/.bashrc
+
 echo 'export PATH=$ANDROID_HOME/cmdline-tools/latest/bin:$ANDROID_HOME/platform-tools:$PATH' >> ~/.bashrc
+
 source ~/.bashrc
 
 
